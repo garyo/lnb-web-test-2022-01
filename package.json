@@ -11,7 +11,7 @@
     "lint": "yarn lint:js",
     "lintfix": "yarn lint:js --fix",
     "test": "jest",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist --dotfiles"
   },
   "dependencies": {
     "@nuxt/content": "^1.15.1",
